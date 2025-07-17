@@ -1,4 +1,5 @@
-1 time traction
+1. one time traction
+
 ```
 private static int getMaxProfit(int [] prices){
         if(prices==null || prices.length < 2){
@@ -43,7 +44,7 @@ private static int getMaxProfitWithMultipleTime(int [] prices){
     }
 ```
 
-3. transaction with at most two
+3. transaction with at most two times
 ```
 private static int getStockProfitAtMostTwo(int [] prices) {
         if (prices == null || prices.length == 0) return 0;
